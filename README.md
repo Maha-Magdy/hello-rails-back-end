@@ -1,24 +1,70 @@
-# README
+# HELLO RAILS BACK-END
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About
 
-Things you may want to cover:
+A "Hello rails back-end" is a sample for an API application that was built using Ruby on Rails. It is an App that allows users to:
 
-* Ruby version
+- Get a random greeting message.
+  
+Then use this API by the [frontend application](https://github.com/Maha-Magdy/hello-react-front-end) using React framework.
 
-* System dependencies
+### **_Built With_** 
 
-* Configuration
+- Ruby ( version => 3.0.1 )
+- Ruby on Rails
+- Postgres database
+- RSpec
 
-* Database creation
+## Live Demo
 
-* Database initialization
+[Live Demo Link]( https://calm-gorge-20349.herokuapp.com/api/random_greeting )
 
-* How to run the test suite
+## **_Installation_** 
 
-* Services (job queues, cache servers, search engines, etc.)
+### To get a local copy up and running follow these simple example steps.
 
-* Deployment instructions
+   1. To clone this repo run this code on a terminal window: 
 
-* ...
+      ```git clone https://github.com/Maha-Magdy/hello-rails-back-end.git```
+
+   2. install gems by this command
+
+      ```bundle install```
+
+   3. Create the database by this command
+
+      ```rails db: create```
+
+   4. migrate the database by this command
+
+      ```rails db:migrate```
+
+   5. create your greeting messages from rails console by this command
+
+      ```rails console```
+
+   6. Open rails sever by this command, then follow the link provided to open the application on your browser
+
+      ```Rails server```
+
+## **_Authors_**
+
+### Maha Magdy 
+
+- GitHub: [Maha-Magdy](https://github.com/Maha-Magdy)
+- Twitter: [@Maha_M_Abdelaal](https://twitter.com/Maha_M_Abdelaal)
+- LinkedIn: [Maha Magdy](https://www.linkedin.com/in/maha-magdy-abdelaal/)
+
+### **_🤝 Contributing_** 
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page]( https://github.com/Maha-Magdy/hello-rails-back-end/issues ).
+
+### **_Show your support_** 
+
+Give a ⭐️ if you like this project!
+
+### **_📝 License_** 
+
+This project is [MIT](./LICENSE) licensed.
